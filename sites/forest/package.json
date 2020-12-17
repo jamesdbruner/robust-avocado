@@ -1,0 +1,24 @@
+{
+  "name": "forest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby build && gatsby serve",
+    "docker:develop": "gatsby develop --host 0.0.0.0 --port 80 --verbose",
+    "docker:serve": "yarn build && gatsby serve --host 0.0.0.0 --port 80 --verbose"
+  },
+  "dependencies": {
+    "gatsby": "2.20.31",
+    "gatsby-plugin-manifest": "^2.3.6",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-robots-txt": "^1.5.2",
+    "gatsby-plugin-sitemap": "^2.4.3",
+    "gatsby-source-brandy": "^0.10.21",
+    "gatsby-theme-contentful": "^0.31.1",
+    "typeface-montserrat": "^0.0.75"
+  }
+}

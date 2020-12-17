@@ -1,0 +1,13 @@
+{
+  "name": "gatsby-theme-forest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby-plugin-google-tagmanager": "^2.1.24",
+    "gatsby-theme-leshen": "^0.32.1"
+  }
+}

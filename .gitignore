@@ -1,0 +1,19 @@
+node_modules/
+dist/
+public/
+coverage/
+
+.env*
+.docz
+.idea
+.vscode
+.DS_Store
+yarn-error.log
+*.tgz
+.cache
+.env
+*.env
+
+# Build and deployment artifacts
+/app.json
+/ops.zip

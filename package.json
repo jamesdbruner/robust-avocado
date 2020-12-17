@@ -1,0 +1,31 @@
+{
+  "name": "stackbit-forest",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "author": "Clearlink CMS",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.19.1"
+  },
+  "workspaces": [
+    "sites/*",
+    "gatsby-theme-forest"
+  ],
+  "dependencies": {
+    "@leshen/emily": "^1.1.17",
+    "@leshen/lapi": "^1.1.17",
+    "@leshen/tcpa": "^1.1.17",
+    "dotenv": "^8.2.0"
+  }
+}
